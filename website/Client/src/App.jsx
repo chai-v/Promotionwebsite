@@ -1,8 +1,12 @@
-
-
+import {Hero,Events} from "./components"
+import "./components/App.css"
 const App = () => {
   return (
-    <div>App</div>
+    <div className="box">
+      
+      <Hero/>
+      <Events/>
+    </div>
   )
 }
 
