@@ -1,0 +1,207 @@
+
+/*Navbar*/
+.burgur_menu{
+    min-height: 70px;
+    min-width: 70px;
+    background-color:   rgba(255, 255, 255, 0.323);
+    border-radius: 20%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    cursor: pointer;
+    position: fixed;
+    right: 0%;
+}
+.logo img{
+    width: 48px;
+    height: 48px;
+}
+
+.navbar{
+    
+    z-index: 10;
+    top: 0px;
+    width: 100%;
+}
+.nav_container{
+    display: flex;
+    z-index: 100;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0);
+}
+/*Hero section*/
+.container{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-image: url("../public/assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    
+}
+.hero_container{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero_text{
+    min-height:100px;
+    text-align: center;
+
+    
+
+}
+.sponsor{
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info_tab{
+    background-image:url("../public/assets/bg2.jpg") ;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+    
+}
+.info_tab p {
+    max-width: 80%;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 10px;
+    top: 10%;
+    position: relative;
+   
+
+}
+.venue{
+    text-align: start;
+}
+.venue span{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    align-items: center;
+    text-align: start;
+}
+.icon_container{
+    background-color: rgba(255, 255, 255, 0.258);
+    height: fit-content;
+    padding: 10px;
+    border-radius: 50%;
+    width: fit-content;
+    align-items: center;
+    margin-right: 5px;
+}
+.sub_venue{
+    display: flex;
+    align-items:center ;
+    margin:5px;
+}
+.sub_venue h4{
+    margin-left: 5px;
+}
+/*Events */
+.event_heading_container{
+    background-image:url("../public/assets/bg2.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    
+
+   
+}
+.box{
+    height: 100vh;
+    position: relative;
+    background-image: url("../public/assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    color:white;
+
+
+}
+.road_map_container{    
+    background-image: url("../public/assets/bg3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    justify-content: space-between;
+}
+/*carousel*/
+.carousel_container{
+    height: 400px;
+    width: 100%;
+   
+    display: flex;
+
+}
+.card{
+    height:100%;
+    min-width: 100%;
+    background-color: rgba(139, 51, 183, 0.54);
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    flex-direction: column;
+    
+    
+
+}
+.card_show{
+    transform: translateX(0);
+    display: flex;
+}
+.card_container
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    transition: all ease-in-out 0.3s;
+}
+
+.nav{
+    position: absolute;
+    cursor: pointer;
+    z-index: 1000;
+    
+    top: 30%;
+    &.left{
+        font-size: xx-large;
+        right: 10%;
+        transform: translateX(-100%) translatey(-50%);
+    }
+    &.right{
+        font-size: xx-large;
+        left: 10%;
+        transform: translateX(100%) translatey(-50%);
+    }
+
+}
