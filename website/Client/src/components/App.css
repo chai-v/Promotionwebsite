@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Berkshire+Swash&family=Montserrat:wght@300&family=Open+Sans&family=Poppins:wght@300&display=swap');
 
 /*Navbar*/
 .burgur_menu{
@@ -13,12 +14,29 @@
     cursor: pointer;
     position: fixed;
     right: 0%;
+    z-index: 1000;
 }
 .logo img{
-    width: 48px;
-    height: 48px;
+    width: 78px;
+    height: 68px;
 }
-
+.nav_links{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: x-large;
+    position: fixed;
+    transform: translateX(-150%);
+    background-color: rgb(153, 82, 194);
+    transition: all ease-in-out 0.3s;
+    z-index: 500;
+}
+.nav_bar_slide{
+    transform: translateX(0);
+}
 .navbar{
     
     z-index: 10;
@@ -52,53 +70,49 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size: x-large;
 }
 .hero_text{
     min-height:100px;
+    font-family: 'Berkshire Swash';
     text-align: center;
 
     
 
 }
 .sponsor{
-    max-height: 100px;
+    min-height: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .info_tab{
-    background-image:url("../public/assets/bg2.jpg") ;
-    background-size: cover;
-    background-position: center;
+    background-image:url("../public/assets/Wave above events.svg") ;
+    height: auto;
+    width: 100%;
     flex-direction: column;
     align-items: center;
+    background-size: cover;
     flex: 1;
     justify-content: space-around;
     display: flex;
     position: relative;
     background-repeat: no-repeat;
+
     
 }
 .info_tab p {
     max-width: 80%;
     text-align: center;
     font-family: sans-serif;
-    margin: 10px;
+    margin-top: 70px;
     top: 10%;
     position: relative;
    
 
 }
-.venue{
-    text-align: start;
-}
-.venue span{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 15px;
-    align-items: center;
-    text-align: start;
-}
+
+
 .icon_container{
     background-color: rgba(255, 255, 255, 0.258);
     height: fit-content;
@@ -111,21 +125,24 @@
 .sub_venue{
     display: flex;
     align-items:center ;
-    margin:5px;
+    margin-bottom:15px;
 }
 .sub_venue h4{
     margin-left: 5px;
 }
 /*Events */
 .event_heading_container{
-    background-image:url("../public/assets/bg2.jpg") ;
+    background-image:url("../public/assets/Wave bellow events.svg") ;
+    font-family:'Berkshire Swash' ;
     background-size: cover;
+    font-size: xx-large;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     width: 100%;
     height: fit-content;
     padding: 10px;
+    z-index: 10;
     
 
    
@@ -139,19 +156,21 @@
     flex-direction: column;
     background-repeat: no-repeat;
     color:white;
+    
 
 
 }
 .road_map_container{    
-    background-image: url("../public/assets/bg3.png");
+    background-image: url("../public/assets/Road.svg");
     background-size: cover;
+    
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     width: 100%;
     height: fit-content;
     padding: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 /*carousel*/
 .carousel_container{
@@ -190,7 +209,7 @@
 .nav{
     position: absolute;
     cursor: pointer;
-    z-index: 1000;
+    z-index: 400;
     
     top: 30%;
     &.left{

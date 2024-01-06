@@ -5,11 +5,11 @@ const Events = () => {
             <div className="event_heading_container">
                 <h1>Events</h1>
             </div>
-            <div className="road_map_container">
+            <div className="road_map_container text-black">
                 <h1>Road</h1>
-                <h1>-</h1>
+                
                 <h1>TO</h1>
-                <h1>-</h1>
+                
                 <h1>Pramana</h1>
             </div>
             <div>
