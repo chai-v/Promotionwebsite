@@ -7,16 +7,16 @@ const Hero = () => {
         </div>
         <div className="hero_container">
         <div className="hero_text">
-            <h1>Pramana 24</h1>
-            <span>The anual fest of GITAM Hyderabad</span>
+            <h1 className="text-[50px]">Pramana 24</h1>
+            <span className="text-[20px]">The anual fest of GITAM Hyderabad</span>
         </div>
-        <div className="sponsor">
-            <span>Powered by</span>
-            <img src="src\public\assets\image.png" alt="" />
+        <div className="sponsor mt-[10px]">
+            <span>Sopnsored by</span>
+            <img className="mt-[10px]" src="src\public\assets\Sponsor logo.svg" alt="" />
         </div>
         </div>
-        <div className="info_tab">
-            <p>PRAMANA is the annual flagship event which serves as a celebration of GITAM’s vibrant and diverse community, offering enriching experience for all participants. We strive to inspire and empower our students while creating unforgettable memories.
+        <div className="info_tab py-[50px]">
+            <p >PRAMANA is the annual flagship event which serves as a celebration of GITAM’s vibrant and diverse community, offering enriching experience for all participants. We strive to inspire and empower our students while creating unforgettable memories.
             </p>
             <div className="venue">
                 <div className="sub_venue">
