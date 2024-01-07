@@ -7,7 +7,6 @@ const Page3 = () => {
   return (
     <div className="box">
         <div className="subpage">
-            <Updates/>
             <FAQs/>
             <Contact/>
             <Footer/>
