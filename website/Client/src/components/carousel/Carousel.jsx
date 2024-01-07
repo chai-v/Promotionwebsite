@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
-import { eventlist } from '../constants'
+import { eventlist } from '../../constants'
 
 const Carousel = () => {
   const [active,setActive] = useState(2)
