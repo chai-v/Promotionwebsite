@@ -1,7 +1,7 @@
-import Navbar from "./Navbar"
+import Navbar from "../navbar/Navbar"
 const Hero = () => {
   return (
-    <div className="container">
+    <div className="box">
         <div className="navbar">
             <Navbar/>
         </div>
@@ -15,7 +15,7 @@ const Hero = () => {
             <img className="mt-[10px]" src="src\public\assets\Sponsor logo.svg" alt="" />
         </div>
         </div>
-        <div className="info_tab py-[50px]">
+        <div className="info_tab ">
             <p >PRAMANA is the annual flagship event which serves as a celebration of GITAM’s vibrant and diverse community, offering enriching experience for all participants. We strive to inspire and empower our students while creating unforgettable memories.
             </p>
             <div className="venue">
