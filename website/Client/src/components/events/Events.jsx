@@ -8,7 +8,7 @@ const Events = () => {
     </div>
     <div className="road_map_container"><div></div></div>
     <Carousel/>
-    <Gallery/>
+    
   </div>
   )
 }
