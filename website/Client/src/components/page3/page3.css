@@ -1,0 +1,28 @@
+
+.subpage{
+    background: linear-gradient(to bottom, #9030cc, #9C00FF);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.update_section{
+    min-height: 40%;
+    width:100% ;
+    display: flex;
+}
+.faq_section{
+    min-height: 20%;
+    width: 100%;
+}
+.contact_us{
+    min-height: 30%;
+    width: 100%;
+
+}
+.footer_container{
+    min-height: 10%;
+    width: 100%;
+    
+}

@@ -1,34 +1,49 @@
-import Navbar from "../navbar/Navbar"
+import './hero.css'
 const Hero = () => {
   return (
-    <div className="box">
-        <div className="navbar">
-            <Navbar/>
-        </div>
+    <div className="hero">
         <div className="hero_container">
-        <div className="hero_text">
-            <h1 className="text-[50px]">Pramana 24</h1>
-            <span className="text-[20px]">The anual fest of GITAM Hyderabad</span>
-        </div>
-        <div className="sponsor mt-[10px]">
-            <span>Sopnsored by</span>
-            <img className="mt-[10px]" src="src\public\assets\Sponsor logo.svg" alt="" />
-        </div>
-        </div>
-        <div className="info_tab ">
-            <p >PRAMANA is the annual flagship event which serves as a celebration of GITAM’s vibrant and diverse community, offering enriching experience for all participants. We strive to inspire and empower our students while creating unforgettable memories.
-            </p>
-            <div className="venue">
-                <div className="sub_venue">
-                    <div className="icon_container"><i className='bx bx-calendar'></i></div>
-                    <h4>February 8th, 9th, 10th</h4>
+            <div className="logo mt-[20px] ml-[15px]">
+                <img  src="./src/public/assets/new logo.png" alt="" />
+            </div>
+            
+            <div className="hero_background"></div>
+            <div className="hero_text">
+                <div>
+                    <h1>Pramana 24</h1>
+                    <span>The annual fest of Gitam hyderabad</span>
                 </div>
-                <div  className="sub_venue">
-                    <div className="icon_container"><i className='bx bx-map'></i></div>
-                    <h4>GITAM University, HYD</h4>
+                <div className="sponsor">
+                    <span>sponsored by</span>
+                    <img src="src\public\assets\Phone\Sponsor logo.svg" alt="" />
                 </div>
             </div>
         </div>
+        <div className="info_tab">
+            <div className="info_container">
+            <div className="p_container">
+                <p>
+                PRAMANA is the annual flagship event which serves as a celebration of GITAM’s vibrant and diverse community, offering enriching experience for all participants. We strive to inspire and empower our students while creating unforgettable memories.      
+                </p>
+            </div>
+            <div className="venue">
+                <div className="sub_venue">
+                    <div className="icon_container">
+                        <i className='bx bx-calendar' ></i>
+                    </div>
+                    <h4>February 8th, 9th, 10th</h4>
+                </div>
+                <div className="sub_venue">
+                    <div className="icon_container">
+                    <i className='bx bx-map'></i>
+                    </div>
+                    <h4>GITAM University, HYD</h4>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
     </div>
   )
 }

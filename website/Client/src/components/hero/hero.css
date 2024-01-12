@@ -1,0 +1,114 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.hero_container{
+    min-height: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.hero_background{
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    background-image: url("src/public/assets/website.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -100;
+
+}
+.logo{
+    position: relative;
+    top: -25%;
+    left: -35%;
+}
+.logo img{
+    width: 78px;
+}
+
+.hero_text{
+    min-height:30%;
+    font-family: 'Berkshire Swash';
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+   
+   
+}
+.sponsor{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info_container{
+    height: 80%;
+    width: 100%;
+    top: 6%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.info_tab{
+    background-image:url("src/public/assets/Phone/Wave above events.svg") ;
+    min-height:60%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    top: -10%;
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+
+    
+}
+.p_container{
+    min-height: 40%;
+    margin-top: 10%;
+    text-align:center ;
+    margin-inline: 10%;
+    color: white;
+}
+.venue{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon_container{
+    background-color: rgba(255, 255, 255, 0.258);
+    height: 54px;
+    padding: 5px;
+    border-radius: 50%;
+    width: 54px;
+    align-items: center;
+    text-align: center;
+    margin-right: 5px;
+    color: white;
+    font-size: xx-large;
+}
+.sub_venue{
+    display: flex;
+    align-items:center ;
+    margin-bottom:15px;
+}
+.sub_venue h4{
+    margin-left: 5px;
+    color:white;
+}

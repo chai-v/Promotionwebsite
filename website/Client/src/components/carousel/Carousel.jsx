@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import './carousel.css'
 
 import { eventlist } from '../../constants'
 
 const Carousel = () => {
-  const [active,setActive] = useState(2)
+  const [active,setActive] = useState(1)
   const handleLeftClick = () => {
     setActive((prevActive) => prevActive - 1)
     console.log(active)
@@ -21,9 +22,10 @@ const Carousel = () => {
         <div onClick={handleRightClick} className='nav left'><i className='bx bx-right-arrow' ></i></div>
       }
       
-      <div className={`card_container `}>
+      <div className={`card_container`}>
       { eventlist.map((e) => (
-        <div className={`text-black card  ${active===e.id?'card_show':null}`}key={e.id} >{e.title}</div>
+        <div className={`text-black card bg-[url('./public/assets/satoru_gojo_4k_hd_jujutsu_kaisen.jpg')] ${active===e.id?'card_show':''}`}key={e.id} >{e.title}</div>
+        
       ))
 
       }

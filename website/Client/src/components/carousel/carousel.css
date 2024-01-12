@@ -1,0 +1,57 @@
+.carousel_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: white;
+    position: relative;
+   
+    
+}
+.card{
+    height:100%;
+    min-width: 100%;
+    background-color: rgba(119, 43, 158, 0.54);
+    display: none;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    flex-direction: column;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+}
+.card_show{
+    transform: translateX(0);
+    display: flex;
+    opacity: 1;
+    transition: all ease-in-out 0.5s;
+}
+.card_container
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    transition: all ease-in-out 0.3s;
+}
+
+.nav{
+    position:absolute;
+    cursor: pointer;
+    z-index: 400;
+    
+    top: 50%;
+    &.left{
+        font-size: xx-large;
+        right: 10%;
+        transform: translateX(-100%) translatey(-50%);
+    }
+    &.right{
+        font-size: xx-large;
+        left: 10%;
+        transform: translateX(100%) translatey(-50%);
+    }
+
+}

@@ -6,9 +6,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #323233;
-}
+
 .page3{
   height: 100vh;
   width: 100%;
@@ -19,3 +17,13 @@ body{
   display: flex;
   flex-direction: column;
 }
+/* For WebKit (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* For Firefox */
+scrollbar-width: none;
+
+/* For Internet Explorer and Edge */
+
