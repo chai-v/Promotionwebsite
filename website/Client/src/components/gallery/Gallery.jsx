@@ -44,16 +44,16 @@ const Gallery = () =>{
       modules = {[EffectCoverflow, Pagination, Navigation]}
       className='swiper_container'
     >
-      <SwiperSlide><img src="\assets\Gallery\img1.jpg" alt="img1"/></SwiperSlide>
-      <SwiperSlide><img src="\assets\Gallery\img2.jpg" alt="img2"/></SwiperSlide>
-      <SwiperSlide><img src="\assets\Gallery\img3.jpg" alt="img3"/></SwiperSlide>
-      <SwiperSlide><img src="\assets\Gallery\img4.jpg" alt="img4"/></SwiperSlide>
-      <SwiperSlide><img src="\assets\Gallery\img5.jpg" alt="img5"/></SwiperSlide>
-      <SwiperSlide><img src="\assets\Gallery\img6.jpg" alt="img6"/></SwiperSlide>
-      <SwiperSlide><img src="\assets\Gallery\img7.JPG" alt="img7"/></SwiperSlide>
-      <SwiperSlide><img src="\assets\Gallery\img8.JPG" alt="img8"/></SwiperSlide>
-      <SwiperSlide><img src="\assets\Gallery\img9.JPG" alt="img9"/></SwiperSlide>
-      <SwiperSlide><img src="\assets\Gallery\img10.JPG" alt="img10"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img1.webp" alt="img1"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img2.webp" alt="img2"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img3.webp" alt="img3"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img4.webp" alt="img4"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img5.webp" alt="img5"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img6.webp" alt="img6"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img7.webp" alt="img7"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img8.webp" alt="img8"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img9.webp" alt="img9"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img10.webp" alt="img10"/></SwiperSlide>
       {screenWdt>=800?<div className="slider-controler">
         <div className="swiper-button-prev slider-arrow">
           <ion-icon name="arrow-back-outline"></ion-icon>

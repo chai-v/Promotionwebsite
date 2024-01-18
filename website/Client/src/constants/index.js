@@ -2,7 +2,7 @@ export const eventlist = [
     {
         id:1,
         title:"Artist Performance",
-        image:'Artistperformance.jpg',
+        image:'Artistperformance.webp',
         day:"DAY 1",
         time: "7:30 PM - 9:30 PM",
         date:"08/02/24",
@@ -12,7 +12,7 @@ export const eventlist = [
         title:"Battle of Bands",
         day: "DAY 1",
         id:2,
-        image:"BOB.jpg",
+        image:"BOB.webp",
         time: "2:00 PM - 4:30 PM",
         date:"08/02/24",
         description:"Witness musical mastery collides as diverse bands compete for the title in an electrifying Battle of the Bands showdown.",
@@ -20,7 +20,7 @@ export const eventlist = [
     {
         title:"Culturals",
         id:3,
-        image:'cultural1.jpg',
+        image:'cultural1.webp',
         day:"DAY 1",
         time: "5:30 PM - 7:00 PM",
         date:"08/02/24",
@@ -31,14 +31,14 @@ export const eventlist = [
         title:"Fun Fair",
         day:"DAY 1",
         time: "1:00 PM - 4:00 PM",
-        image:"funfair.jpg",
+        image:"funfair.webp",
         date:"08/02/24",
         description:"A carnival filled with exciting mini games",
     },
     {
         title:"Dance workshop",
         id:5,
-        image:"danceworkshop.jpg",
+        image:"danceworkshop.webp",
         day:"DAY 2",
         time: "9:00 AM - 10:00 AM",
         date:"09/02/24",
@@ -47,7 +47,7 @@ export const eventlist = [
     {
         title:"Raw and Real",
         id:6,
-        image:"rawandreal.jpg",
+        image:"rawandreal.webp",
         day:"DAY 2",
         time: "10:00 AM - 2:00 PM",
         date:"09/02/24",
@@ -56,7 +56,7 @@ export const eventlist = [
     {
         title: "Celestia",
         id:7,
-        image:"Celestia.jpg",
+        image:"Celestia.webp",
         day:"DAY 2",
         time: "10:00 AM - 12:00 PM",
         date:"09/02/24",
@@ -65,7 +65,7 @@ export const eventlist = [
     {
         title:"Auto Expo",
         id:8,
-        image:"autoexpo.jpg",
+        image:"autoexpo.webp",
         day:"DAY 2",
         time: "12:00 PM - 3:00 PM",
         date:"09/02/24",
@@ -74,7 +74,7 @@ export const eventlist = [
     {
         title:"Culturals & Ramp",
         id:9,
-        image:"Cultural2.jpg",
+        image:"Cultural2.webp",
         day:"DAY 2",
         time: "4:30 PM - 7:30 PM",
         date:"09/02/24",
@@ -83,7 +83,7 @@ export const eventlist = [
     {
         title:"Band Performance",
         id:10,
-        image:"Bandperformance.jpg",
+        image:"Bandperformance.webp",
         day:"DAY 2",
         time: "7:30 PM - 9:30 PM",
         date:"09/02/24",
@@ -92,7 +92,7 @@ export const eventlist = [
     {
         title:"Culturals",
         id:11,
-        image:"cultural3.jpg",
+        image:"cultural3.webp",
         day:"DAY 3",
         time: "4:00 PM - 6:00 PM",
         date:"10/02/24",
@@ -101,7 +101,7 @@ export const eventlist = [
     {
         title:"Meet and greet",
         id:12,
-        image:"Celebmeet.jpg",
+        image:"Celebmeet.webp",
         day:"DAY 3",
         time: "6:00 PM - 7:00 PM",
         date:"10/02/24",
@@ -110,7 +110,7 @@ export const eventlist = [
     {
         title:"DJ Night",
         id:13,
-        image:"DJnight.jpg",
+        image:"DJnight.webp",
         day:"DAY 3",
         time: "7:00 PM - 9:30 PM",
         date:"10/02/24",
