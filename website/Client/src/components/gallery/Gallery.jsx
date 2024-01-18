@@ -1,5 +1,6 @@
 import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useState, useEffect } from 'react';
 import './gallery.css'
 
 import 'swiper/css';
@@ -8,6 +9,14 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
 
 const Gallery = () =>{
+  const [screenWdt,setScreenwdt] = useState(window.innerWidth)
+  const handleResize = () => {
+    setScreenwdt(window.innerWidth)
+  }
+  useEffect(() => {
+    setScreenwdt(window.innerWidth);
+    window.addEventListener('resize',handleResize)
+  })
   return(
     <div className='gallery_parent'>
     <div className='gallery_background'>
@@ -26,7 +35,7 @@ const Gallery = () =>{
           modifier: 2.5,
         }
       }
-      pagination={{el:'', clickable:true}}
+      pagination={{el:'.swiper-pagination', clickable:true}}
       navigation={{
         nextEl:'.swiper-button-next',
         prevEl:'.swiper-button-prev',
@@ -35,11 +44,25 @@ const Gallery = () =>{
       modules = {[EffectCoverflow, Pagination, Navigation]}
       className='swiper_container'
     >
-      <SwiperSlide><img className='gallery_item' src="src\public\assets\img1.JPG" alt="img1"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\img2.JPG" alt="img2"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\img3.JPG" alt="img3"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\img4.JPG" alt="img4"/></SwiperSlide>
-      <div><SwiperSlide><img src="src\public\assets\img5.JPG" alt="img5"/></SwiperSlide></div>
+      <SwiperSlide><img src="src\public\assets\Gallery\img1.JPG" alt="img1"/></SwiperSlide>
+      <SwiperSlide><img src="src\public\assets\Gallery\img2.JPG" alt="img2"/></SwiperSlide>
+      <SwiperSlide><img src="src\public\assets\Gallery\img3.JPG" alt="img3"/></SwiperSlide>
+      <SwiperSlide><img src="src\public\assets\Gallery\img4.JPG" alt="img4"/></SwiperSlide>
+      <SwiperSlide><img src="src\public\assets\Gallery\img5.JPG" alt="img5"/></SwiperSlide>
+      <SwiperSlide><img src="src\public\assets\Gallery\img6.JPG" alt="img6"/></SwiperSlide>
+      <SwiperSlide><img src="src\public\assets\Gallery\img7.JPG" alt="img7"/></SwiperSlide>
+      <SwiperSlide><img src="src\public\assets\Gallery\img8.JPG" alt="img8"/></SwiperSlide>
+      <SwiperSlide><img src="src\public\assets\Gallery\img9.JPG" alt="img9"/></SwiperSlide>
+      <SwiperSlide><img src="src\public\assets\Gallery\img10.JPG" alt="img10"/></SwiperSlide>
+      {screenWdt>=800?<div className="slider-controler">
+        <div className="swiper-button-prev slider-arrow">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </div>
+        <div className="swiper-button-next slider-arrow">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </div>
+        <div className="swiper-pagination"></div>
+      </div>:<div></div>}
     </Swiper>
     </div>
     </div>

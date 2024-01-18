@@ -4,10 +4,9 @@
     display: flex;
     color: white;
     position: relative;
-   
-    
 }
 .card{
+    color: white;
     height:100%;
     min-width: 100%;
     background-color: rgba(119, 43, 158, 0.54);
@@ -21,13 +20,21 @@
     padding: 10px;
     flex-direction: column;
     opacity: 0;
-    transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 3s;
+    transform: translateX(-150%);
+    
 }
+
+
 .card_show{
     transform: translateX(0);
     display: flex;
     opacity: 1;
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in-out 3s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 .card_container
 {
@@ -35,6 +42,7 @@
     width: 100%;
     display: flex;
     transition: all ease-in-out 0.3s;
+    overflow: hidden;
 }
 
 .nav{
@@ -44,14 +52,129 @@
     
     top: 50%;
     &.left{
-        font-size: xx-large;
+        font-size: xxx-large;
         right: 10%;
-        transform: translateX(-100%) translatey(-50%);
+        transform: translateX(70%) translatey(-50%);
     }
     &.right{
-        font-size: xx-large;
+        font-size: xxx-large;
         left: 10%;
-        transform: translateX(100%) translatey(-50%);
+        transform: translateX(-70%) translatey(-50%);
     }
 
+}
+.gradient{
+    width: 110%;
+    height:30%;
+    margin-bottom: auto;
+    background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.50) 63%, rgba(0, 0, 0, 0) 100%);
+    vertical-align: top;
+}
+.gradient2{
+    width: 110%;
+    height:30%;
+    margin-top: auto;
+    background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0.50) 63%, rgba(0, 0, 0, 0) 100%);
+    vertical-align: top;
+}
+
+.gradient h1{
+    color: white;
+    font-size: x-large;
+    margin-top: 10%;
+    margin-right: 50%;
+    font-family: 'Berkshire Swash';
+}
+.gradient h2{
+    color: white;
+    font-size: larger;
+    margin-top: -6%;
+    margin-right: -70%;
+    font-family: 'Poppins';
+}
+
+.gradient2 h1{
+    color: white;
+    font-size: larger;
+    font-family: 'Poppins';
+}
+
+.gradient2 h2{
+    color: white;
+    font-size: large;
+    font-family: 'Poppins';
+    margin-left: 50%;
+    margin-top: -4.7%;
+}
+
+.title{
+    margin-top: 6%;
+    text-align: left;
+    width: 55%;
+    margin-left: 5%;
+}
+/* Desktop */
+
+@media (min-width: 800px){
+    .nav{
+        &.left{
+            transform: translateX(130%) translatey(-300%);
+        }
+        &.right{
+            transform: translateX(-130%) translatey(-300%);
+        }
+    }
+    .gradient{
+        width: 110%;
+        height:30%;
+        margin-bottom: auto;
+        background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.50) 63%, rgba(0, 0, 0, 0) 100%);
+        vertical-align: top;
+    }
+    .gradient2{
+        width: 110%;
+        height:50%;
+        margin-top: auto;
+        background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0.50) 63%, rgba(0, 0, 0, 0) 100%);
+        vertical-align: top;
+    }
+    
+    .gradient h1{
+        color: white;
+        font-size: xx-large;
+        margin-top: 10%;
+        margin-right: 75%;
+        font-family: 'Berkshire Swash';
+    }
+    .gradient h2{
+        color: white;
+        font-size: xx-large;
+        margin-top: -3%;
+        margin-right: -70%;
+        font-family: 'Poppins';
+    }
+    
+    .gradient2 h1{
+        color: white;
+        font-size: xxx-large;
+        font-family: 'Poppins';
+    }
+    
+    .gradient2 h2{
+        color: white;
+        font-size: xxx-large;
+        font-family: 'Poppins';
+        margin-left: 50%;
+        margin-top: -4.7%;
+    }
+    .gradient2 h3{
+        font-size: larger;
+    }
+    
+    .title{
+        margin-top: 3%;
+        text-align: left;
+        width: 45%;
+        margin-left: 8%;
+    }
 }

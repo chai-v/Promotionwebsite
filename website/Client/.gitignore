@@ -10,7 +10,6 @@ lerna-debug.log*
 node_modules
 *.local
 background.gif
-website GIF (1).gif
 
 # Editor directories and files
 .vscode/*

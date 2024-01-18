@@ -1,47 +1,57 @@
 import './faqs.css'
 import { useState } from 'react';
-import { MDBAccordion, MDBAccordionItem, MDBContainer } from "mdb-react-ui-kit";
 
 const FAQs = () => {
-  const [active, setActive] = useState(null);
   return (
     <div className='FAQs'>
       <div className="faq_background">
-        <div className="gallery_heading"><h1>FAQs</h1></div>
-        <div class="accordion" id="accordionExample">
+        <div className="faq_heading"><h2>FAQs</h2></div>
+        <div class="accordion accordion-flush" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-bs-expanded="true" aria-bs-controls="collapseOne">
-        Accordion Item #1
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+      Are non college students allowed to attend the fest?
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        Yes, the fest is open for non college students. However, certain events may have specific eligibility criteria.
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
+      How can I register for college fest?
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+       Registration details will be available in the official website and keep an eye for for updates and instructions on the official <a href="https://www.instagram.com/pramana_2024.gitam/">@pramana_2024.gitam</a> instagram page.
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
+      What kind of events and activities will Pramana 2024 feature?
       </button>
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      The fest will feature a variety of events including cultural performances, workshops and more. Check the events schedule for details.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+      Is outside food allowed into the arena?
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      There will be food available inside the arena.
       </div>
     </div>
   </div>

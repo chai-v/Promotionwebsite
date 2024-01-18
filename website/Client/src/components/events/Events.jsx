@@ -8,6 +8,7 @@ const Events = () => {
       <h1>Events</h1>
     </div>
     <div className="road_map_container"></div>
+    <div className="coming_soon"></div>
     <div className="carousel_box">
       <Carousel/>
     </div>

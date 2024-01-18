@@ -11,17 +11,43 @@
 }
 .accordion-item{
     background-color: #9030cc;
+    color: azure;
     max-height: fit-content;
 }
 .accordion{
     width: 90%;
     height: 60%;
     margin: auto;
+    margin-top: 2%;
+}
+
+.accordion-button{
+    color: azure;
 }
 .subpage{
-    background: linear-gradient(to bottom, #9030cc, #9C00FF);
+    background-color: #9030cc;
     height: 100vh;
     width: 100%;
     border: none;
     outline: none;
+}
+.collapse{
+    visibility: visible !important;
+}
+.faq_heading{
+    width: 100%;
+    font-size: xx-large;
+    padding-left: 5%;
+    font-family: 'Berkshire Swash';
+    color: white;
+    margin-bottom: 1%;
+}
+
+@media (min-width: 800px){
+    .faq_heading{
+        font-size: xxx-large;
+    }
+    .accordion{
+        margin-top: 0%;
+    }
 }

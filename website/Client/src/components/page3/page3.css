@@ -1,28 +1,59 @@
 
 .subpage{
-    background: linear-gradient(to bottom, #9030cc, #9C00FF);
-    height: 100vh;
+    background-color: #9030CC !important;
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
-
 }
 .update_section{
-    min-height: 40%;
+    height: 45vh !important;
     width:100% ;
     display: flex;
 }
 .faq_section{
-    min-height: 20%;
-    width: 100%;
-}
-.contact_us{
     min-height: 30%;
     width: 100%;
-
+    margin-top: 5%;
+}
+.contact_us{
+    min-height: 20%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .footer_container{
-    min-height: 10%;
+    max-height: 10%;
     width: 100%;
     
+}
+@media (min-width:800px) {
+    .subpage{
+        background-color: #9030cc;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -50vh;
+    }
+    .update_section{
+        height: 60vh !important;
+        width:100% ;
+        display: flex;
+    }
+    .faq_section{
+        min-height: 30%;
+        width: 100%;
+        margin-top: 0%;
+    }
+    .contact_us{
+        min-height: 10%;
+        width: 100%;
+        margin-top: 7%;
+        margin-bottom: 1%;
+    }
+    .footer_container{
+        max-height: 10%;
+        width: 100%;
+    }
 }

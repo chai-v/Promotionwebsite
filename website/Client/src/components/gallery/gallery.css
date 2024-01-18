@@ -3,6 +3,7 @@
     height: 100%;
     width: 100%;
     display: flex;
+    flex-direction: column;
 }
 .gallery_background{
     background-image: url("../../public/assets/Phone/Wave below events.svg");
@@ -13,7 +14,7 @@
     justify-content: center;
     align-items: center;
     
-    top: -24%;
+    top: -22%;
     flex-direction: column;
     display: flex;
     height: 124%;
@@ -26,7 +27,7 @@
     padding-left: 5%;
     font-family: 'Berkshire Swash';
     color: white;
-    margin-top: 2%;
+    margin-top: 15%;
     margin-bottom: 2%;
 
 }
@@ -51,36 +52,32 @@
     cursor: grabbing;
   }
   
-.gallery_item {
-    flex: 0 0 auto;
-    height: 80%;
-    width: 50%;
-    background-color: rgb(147, 86, 216);
-    border-radius: 10%;
-    margin-right: 15px;
-    overflow: hidden;
-  }
+
 .swiper_container {
     height: 70%;
-    
-    padding:  0;
+    width: 100%;
+    margin-top: 5%;
     position: relative;
 }
   
 .swiper-slide {
     width: 70%;
-    height: 100%;
+    height: 50%;
     position: relative;
+    
+}
+
+ion-icon{
+  color: white;
 }
   
 @media (max-width: 500px) {
     .swiper_container {
       height: 70%;
-      
     }
     .swiper-slide {
-      width: 70% !important;
-      height: 90% !important;
+      width: 60% !important;
+      height: 100% !important;
     }
     .swiper-slide img {
       width: 100% !important;
@@ -102,21 +99,27 @@
   
 .slider-controler {
     position: relative;
-    bottom: 2rem;
+    bottom: 6%;
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   
 .slider-controler .swiper-button-next {
     left: 58% !important;
-    transform: translateX(-58%) !important;
+    transform: translateX(-58%) translateY(15%) !important;
+  }
+
+  .slider-controler .swiper-button-prev {
+    transform: translateX(-42%) translateY(15%) !important;
   }
   
 @media (max-width: 990px) {
     .slider-controler .swiper-button-next {
       left: 70% !important;
       transform: translateX(-70%) !important;
+      transform: translateY(15%);
     }
   }
   
@@ -131,6 +134,7 @@
     .slider-controler .swiper-button-prev {
       left: 30% !important;
       transform: translateX(-30%) !important;
+      transform: translateY(15%);
     }
   }
   
@@ -142,18 +146,16 @@
   }
   
 .slider-controler .slider-arrow {
-    background: var(--white);
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
     left: 42%;
-    transform: translateX(-42%);
     filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
   }
   
 .slider-controler .slider-arrow ion-icon {
-    font-size: 2rem;
-    color: #222224;
+    font-size: 75px;
+    color: white;
   }
   
 .slider-controler .slider-arrow::after {
@@ -162,8 +164,9 @@
   
 .swiper-pagination {
     position: relative;
-    width: 15rem !important;
+    margin-top: 2%;
     bottom: 1rem;
+    transform:translateY(23px) !important;
   }
   
 .swiper-pagination .swiper-pagination-bullet {
@@ -171,28 +174,101 @@
   }
   
 .swiper-pagination .swiper-pagination-bullet-active {
-    background: var(--primary);
+    background: white;
+  }
+  .updates{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 5%;
+  }
+  .update_background{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .update_heading{
+    min-height: 10%;
+    font-family: 'Berkshire Swash';
+    padding-left: 5%;
+    font-size: xx-large;
+    color: white;
+    margin-bottom: 2%;
+    margin-top: 5%;
+  }
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+..............................................................DESKTOP................................
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width: 800px) {
+    .swiper_container {
+      height: 40%;
+      margin-bottom: 3%;
+      margin-top: 0%;
+    }
+    .swiper-slide {
+      width: 40% !important;
+      height: 90% !important;
+    }
+    .swiper-slide img {
+      width: 100% !important;
+      height: 100% !important ;
+    }
+    .gallery_background{
+      background-image: url("../../public/assets/Phone/Wave below events.svg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      
+      top: -100%;
+      flex-direction: column;
+      display: flex;
+      height: 300%;
+      width: 100%;
+      
+  }
+  .gallery_heading{
+    width: 100%;
+    font-size: xxx-large;
+    padding-left: 5%;
+    font-family: 'Berkshire Swash';
+    color: white;
+    margin-top: -12%;
+    margin-bottom: 1%;
+
+}
+  .updates{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
   }
 
+  .update_background{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .update_heading{
+    min-height: 10%;
+    font-family: 'Berkshire Swash';
+    padding-left: 5%;
+    margin-top: -5%;
+    font-size: xxx-large;
+    color: white;
+    margin-bottom: 5%;
+  }
+  .important-class{
+      width:30% !important;
+      height: 90% !important;
+  }
+}
 /*.................Updates.......................*/
-.updates{
-  height: 100%;
-  width: 100%;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.update_background{
-  display: flex;
-  height: 100%;
-  width: 100%;
-  flex-direction: column;
-}
-.update_heading{
-  min-height: 10%;
-  font-family: 'Berkshire Swash';
-  padding-left: 5%;
-  font-size: xx-large;
-  color: white;
-}

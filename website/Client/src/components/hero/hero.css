@@ -15,7 +15,7 @@
 }
 .hero_background{
     position: absolute;
-    height: 120%;
+    height: 150%;
     width: 100%;
     background-image: url("src/public/assets/website.gif");
     background-size: cover;
@@ -30,20 +30,20 @@
     left: -35%;
 }
 .logo img{
-    width: 78px;
+    width: 68px;
 }
 
 .hero_text{
     min-height:30%;
-    font-family: 'Berkshire Swash';
     text-align: center;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-   
-   
+}
+.hero_text h1{
+    font-size: xxx-large;
+    font-family: 'Berkshire Swash';
 }
 .sponsor{
    
@@ -52,39 +52,38 @@
     align-items: center;
 }
 .info_container{
-    height: 80%;
-    width: 100%;
-    top: 6%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-
-}
-.info_tab{
     background-image:url("src/public/assets/Phone/Wave above events.svg") ;
-    min-height:60%;
+    min-height:110%;
     width: 100%;
     flex-direction: column;
     align-items: center;
     background-size: cover;
     top: -10%;
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
     position: relative;
     background-repeat: no-repeat;
 
+}
+.info_tab{
+    min-height: 60%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
     
 }
 .p_container{
-    min-height: 40%;
-    margin-top: 10%;
+    min-height: 35%;
+    margin-top: 18%;
     text-align:center ;
     margin-inline: 10%;
     color: white;
 }
 .venue{
-    height: 60%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,4 +110,124 @@
 .sub_venue h4{
     margin-left: 5px;
     color:white;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.....................................................DESKTOP.............................................................................
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+@media (min-width:800px) {
+    .hero{
+        height: 150vh;
+    }
+    .hero_container{
+        min-height: 70%;
+        width: 100%;
+        color: black;
+
+    }
+    .hero_background{
+        height: 121%;
+    }
+    .logo{
+        
+        left: -41%;
+        top: -20%;
+    }
+    .logo img{
+        width: 100px;
+    }
+    .hero_text{
+        min-height:30%;
+        font-family: 'Berkshire Swash';
+        text-align: center;
+        color: white;
+        display: flex;
+        font-size: 120px;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 11%;
+    }
+    .hero_text h1{
+        font-size: 120px;
+        font-family: 'Berkshire Swash';
+    }
+    .hero_text span{
+        font-family: 'Poppins',sans-serif;
+        font-size: 25px;
+    }
+    .sponsor img{
+        height: 50px;
+    }
+   
+    .info_tab{
+        min-height: 30%;
+        width: 100%;
+        
+        position: relative;
+        display: flex;
+    
+        flex-direction: row;
+    
+        
+    }
+    .info_container{
+        min-height: 119.7%;
+        width: 100%;
+        
+        position: relative;
+        display: flex;
+    
+        flex-direction: row;
+        background-image:url("src/public/assets/Desktop/Wave above events.svg") ;
+        
+        flex-direction: row;
+        align-items: center;
+        background-size: cover;
+        top: -19.5%;
+        justify-content: space-around;
+        display: flex;
+        position: relative;
+        background-repeat: no-repeat;
+    
+    }
+    .p_container{
+        min-height: 40%;
+        max-width: 40%;
+        text-align:start ;
+        font-size: 140%;
+        color: white;
+        margin-top: 11%;
+        margin-inline: 1%;
+    }
+    .venue{
+        height: 60%;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .icon_container{
+        background-color: rgba(255, 255, 255, 0.258);
+        height: 74px;
+        padding: 5px;
+        border-radius: 50%;
+        width: 74px;
+        align-items: center;
+        text-align: center;
+        margin-right: 5px;
+        color: white;
+        font-size: xxx-large;
+    }
+    .sub_venue{
+        display: flex;
+        align-items:center ;
+        margin-bottom:15px;
+        font-size: x-large;
+    }
+    .sub_venue h4{
+        margin-left: 5px;
+        color:white;
+    }
+  
 }

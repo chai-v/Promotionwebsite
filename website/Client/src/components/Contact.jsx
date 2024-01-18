@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="contact_background">
         <div className="gallery_heading"><h1>Contact us</h1></div>
         <div className="vendor_message">
-          <h4>Want to become a?
+          <h4>Want to become a vendor?
           <a href="https://docs.google.com/forms/d/1jo9xCyWl6f8qgkRO2-pUJZlu5dZs-5s-O95XsZ3iNGw/edit">
             <button>Click Here to Apply!</button>
           </a>
@@ -27,7 +27,7 @@ const Contact = () => {
           <div className="vertical_line"></div>
           <div className="contact_id">
           <div className="email">
-            <i class='bx bx-envelope' ></i>
+            <i className='bx bx-envelope' ></i>
             <h4>pramana.hyd@gitam.edu</h4>
           </div>
           <div className="insta">

@@ -12,10 +12,10 @@ const Page3 = () => {
       <div className="update_section">
         <Updates Insta_key={key} />
       </div>
-      <div className="faq_section">
+      <div className="faq_section" id="faqs">
         <FAQs/>
       </div>
-      <div className="contact_us">
+      <div className="contact_us" id="contact">
         <Contact/>
       </div>
       <div className="footer_container">

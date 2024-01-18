@@ -3,7 +3,7 @@ const Hero = () => {
   return (
     <div className="hero">
         <div className="hero_container">
-            <div className="logo mt-[20px] ml-[15px]">
+            <div className="logo mt-[12%] ml-[-7%]">
                 <img  src="./src/public/assets/new logo.png" alt="" />
             </div>
             
@@ -11,12 +11,12 @@ const Hero = () => {
             <div className="hero_text">
                 <div>
                     <h1>Pramana 24</h1>
-                    <span>The annual fest of Gitam hyderabad</span>
+                    <span>THE ANNUAL FEST OF GITAM HYDERABAD</span>
                 </div>
-                <div className="sponsor">
+                {/* <div className="sponsor">
                     <span>sponsored by</span>
                     <img src="src\public\assets\Phone\Sponsor logo.svg" alt="" />
-                </div>
+                </div> */}
             </div>
         </div>
         <div className="info_tab">
