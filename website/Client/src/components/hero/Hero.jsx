@@ -7,7 +7,7 @@ const Hero = () => {
                 <img  src="/assets/new logo.png" alt="" />
             </div>
             
-            <div className="hero_background"></div>
+            <div className="hero_background"><div id="blur"></div></div>
             <div className="hero_text">
                 <div>
                     <h1>Pramana 24</h1>

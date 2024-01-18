@@ -17,12 +17,17 @@
     position: absolute;
     height: 150%;
     width: 100%;
-    background-image: url("/assets/website.gif");
+    background-image: url("/assets/background.webp");
+    backdrop-filter: blur(64px) brightness(0.001);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: -100;
-
+}
+#blur{
+    background-color: rgba(0, 0, 0, 0.400);
+    height: 100%;
+    width: 100%;
 }
 .logo{
     position: relative;
