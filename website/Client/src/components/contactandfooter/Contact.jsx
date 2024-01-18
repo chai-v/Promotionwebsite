@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="contact_heading"><h1>Contact us</h1></div>
         <div className="vendor_message sm:text-start">
           <br></br><b><span>Want to become a vendor?&nbsp;
-          <a href="https://docs.google.com/forms/d/1jo9xCyWl6f8qgkRO2-pUJZlu5dZs-5s-O95XsZ3iNGw/edit">
+          <a href="https://forms.gle/Yhoi6whqnKW6gW4b7">
             Click Here to Apply!
           </a>
           </span></b>
