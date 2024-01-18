@@ -17,7 +17,7 @@
     position: absolute;
     height: 150%;
     width: 100%;
-    background-image: url("src/public/assets/website.gif");
+    background-image: url("/assets/website.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@
     align-items: center;
 }
 .info_container{
-    background-image:url("src/public/assets/Phone/Wave above events.svg") ;
+    background-image:url("/assets/Phone/Wave above events.svg") ;
     min-height:110%;
     width: 100%;
     flex-direction: column;
@@ -177,7 +177,7 @@
         display: flex;
     
         flex-direction: row;
-        background-image:url("src/public/assets/Desktop/Wave above events.svg") ;
+        background-image:url("/assets/Desktop/Wave above events.svg") ;
         
         flex-direction: row;
         align-items: center;

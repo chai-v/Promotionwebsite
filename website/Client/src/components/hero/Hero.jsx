@@ -4,7 +4,7 @@ const Hero = () => {
     <div className="hero">
         <div className="hero_container">
             <div className="logo mt-[12%] ml-[-7%]">
-                <img  src="./src/public/assets/new logo.png" alt="" />
+                <img  src="/assets/new logo.png" alt="" />
             </div>
             
             <div className="hero_background"></div>

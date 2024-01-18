@@ -32,7 +32,7 @@ const Carousel = () => {
       
       <div className={`card_container`}>
       { eventlist.map((e,idx) => (
-        <div style={{backgroundImage: `url('../src/public/assets/Events/${e.image}'`}} className={`card  brightness-50')] ${active===e.id?'card_show':''}`} key={idx} >
+        <div style={{backgroundImage: `url('/assets/Events/${e.image}'`}} className={`card  brightness-50')] ${active===e.id?'card_show':''}`} key={idx} >
           <div class='gradient'>
             <h1>Event Schedule</h1>
             <h2><b>{e.day}</b></h2>

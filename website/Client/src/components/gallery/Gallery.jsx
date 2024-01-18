@@ -44,16 +44,16 @@ const Gallery = () =>{
       modules = {[EffectCoverflow, Pagination, Navigation]}
       className='swiper_container'
     >
-      <SwiperSlide><img src="src\public\assets\Gallery\img1.JPG" alt="img1"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\Gallery\img2.JPG" alt="img2"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\Gallery\img3.JPG" alt="img3"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\Gallery\img4.JPG" alt="img4"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\Gallery\img5.JPG" alt="img5"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\Gallery\img6.JPG" alt="img6"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\Gallery\img7.JPG" alt="img7"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\Gallery\img8.JPG" alt="img8"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\Gallery\img9.JPG" alt="img9"/></SwiperSlide>
-      <SwiperSlide><img src="src\public\assets\Gallery\img10.JPG" alt="img10"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img1.jpg" alt="img1"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img2.jpg" alt="img2"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img3.jpg" alt="img3"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img4.jpg" alt="img4"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img5.jpg" alt="img5"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img6.jpg" alt="img6"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img7.JPG" alt="img7"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img8.JPG" alt="img8"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img9.JPG" alt="img9"/></SwiperSlide>
+      <SwiperSlide><img src="\assets\Gallery\img10.JPG" alt="img10"/></SwiperSlide>
       {screenWdt>=800?<div className="slider-controler">
         <div className="swiper-button-prev slider-arrow">
           <ion-icon name="arrow-back-outline"></ion-icon>

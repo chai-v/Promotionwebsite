@@ -21,7 +21,7 @@
 }
 
 .road_map_container{    
-    background-image: url("../../public/assets/Phone/Road.svg");
+    background-image: url("/assets/Phone/Road.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@
     z-index: 200;
 }
 .coming_soon{
-    background-image: url("../../public/assets/Phone/Coming soon tape.svg");
+    background-image: url("/assets/Phone/Coming soon tape.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -172,7 +172,7 @@
     }
     
     .road_map_container{    
-        background-image: url("../../public/assets/Desktop/Road.svg");
+        background-image: url("/assets/Desktop/Road.svg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -183,7 +183,7 @@
         z-index: 200;
     }
     .coming_soon{
-        background-image: url("../../public/assets/Phone/Coming soon tape.svg");
+        background-image: url("/assets/Phone/Coming soon tape.svg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
