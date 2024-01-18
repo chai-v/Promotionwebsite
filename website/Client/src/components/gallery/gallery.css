@@ -218,8 +218,8 @@ ion-icon{
       height: 100% !important ;
     }
     .gallery_background{
-      background-image: url("/assets/Desktop/Wave below events.svg");
-      background-size: cover;
+      background-image: url("/assets/Phone/Wave below events.svg");
+      background-size:cover;
       background-position: center;
       background-repeat: no-repeat;
       position: absolute;

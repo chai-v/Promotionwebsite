@@ -198,14 +198,14 @@
         min-height: 40%;
         max-width: 40%;
         text-align:start ;
-        font-size: 140%;
+        font-size: 110%;
         color: white;
         margin-top: 11%;
         margin-inline: 1%;
     }
     .venue{
         height: 60%;
-        margin-top: 10%;
+        margin-top: 8%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -228,7 +228,7 @@
         display: flex;
         align-items:center ;
         margin-bottom:15px;
-        font-size: x-large;
+        font-size: 120%;
     }
     .sub_venue h4{
         margin-left: 5px;
