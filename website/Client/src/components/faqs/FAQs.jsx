@@ -10,19 +10,19 @@ const FAQs = () => {
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-      Are non college students allowed to attend the fest?
+      Are non GITAM students allowed to attend the fest?
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        Yes, the fest is open for non college students. However, certain events may have specific eligibility criteria.
+        Yes, the fest is open for non GITAM undergradutate/graduate students. However, certain events may have specific eligibility criteria.
       </div>
     </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      How can I register for college fest?
+      How can I register for Pramana 2024?
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -39,7 +39,7 @@ const FAQs = () => {
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      The fest will feature a variety of events including cultural performances, workshops and more. Check the events schedule for details.
+      The fest will feature a variety of events including cultural performances, workshops and competitions. Check the events section for details.
       </div>
     </div>
   </div>
