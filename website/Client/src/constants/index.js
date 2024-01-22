@@ -108,13 +108,13 @@ export const eventlist = [
         description: "Get up close and personal with your favorite stars in an exclusive Celebrity Meet and Greet, where fans and fame come together for an unforgettable experience"
     },
     {
-        title:"DJ Night",
+        title:"Project 91",
         id:13,
         image:"DJnight.webp",
         day:"DAY 3",
         time: "7:00 PM - 9:30 PM",
         date:"10/02/24",
-        description: "Groove to the beats and let the night come alive with an electrifying DJ set, creating an unforgettable atmosphere of music and dance"
+        description: "Pulse-pounding beats, infectious energy: Project 91 is the soundtrack to your next dancefloor meltdown."
     },
 ];
 

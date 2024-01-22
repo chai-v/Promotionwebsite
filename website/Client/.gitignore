@@ -10,7 +10,7 @@ lerna-debug.log*
 node_modules
 *.local
 background.gif
-
+dist
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

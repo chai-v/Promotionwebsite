@@ -40,14 +40,14 @@ const Navbar = () => {
           <a className="hover:text-purple-500 " onClick={handleMenu} href="#events">Events</a><br/>
           <a className="hover:text-purple-500 " onClick={handleMenu} href="#faqs">FAQs</a><br/>
           <a className="hover:text-purple-500 " onClick={handleMenu} href="#contact">Contact Us</a><br/>
-          <a className="hover:text-purple-500 " onClick={handleMenu} href="https://forms.gle/w6Tden2dQCxq3u8x7">Buy Passes</a><br/>
+          <a className="hover:text-purple-500 " onClick={handleMenu} href="https://linktr.ee/pramanahyd">Buy Passes</a><br/>
         </div>
       </div>:<div className="navbar_desktop font-bold ">
         <div className="navlinks_desktop hover:text-purple-500">
           <a className="hover:text-purple-500 nav_link" href="#events">Events</a>
           <a className="hover:text-purple-500 nav_link" href="#faqs">FAQs</a>
           <a className="hover:text-purple-500 nav_link" href="#contact">Contact us</a>
-          <a className="hover:text-purple-500 nav_link" href="https://forms.gle/w6Tden2dQCxq3u8x7">Buy Passes</a>
+          <a className="hover:text-purple-500 nav_link" href="https://linktr.ee/pramanahyd">Buy Passes</a>
         </div>  
       </div>}
     </div>
