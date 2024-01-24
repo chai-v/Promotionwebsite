@@ -112,9 +112,18 @@ export const eventlist = [
         id:13,
         image:"DJnight.webp",
         day:"DAY 3",
-        time: "7:00 PM - 9:30 PM",
+        time: "7:00 PM - 8:00 PM",
         date:"10/02/24",
         description: "Pulse-pounding beats, infectious energy: Project 91 is the soundtrack to your next dancefloor meltdown."
+    },
+    {
+        title:"Nina Suerte",
+        id:14,
+        image:"nina.webp",
+        day:"DAY 3",
+        time: "8:00 PM - 9:30 PM",
+        date:"10/02/24",
+        description: "PDJ Nina Suerte's infectious energy and pulse-pounding mixes are guaranteed to make you lose yourself in the music."
     },
 ];
 

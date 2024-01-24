@@ -27,7 +27,7 @@ const FAQs = () => {
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-       Registration details will be available in the official website and keep an eye for for updates and instructions on the official <a href="https://www.instagram.com/pramana_2024.gitam/">@pramana_2024.gitam</a> instagram page.
+       Registration details are avaliable under "Buy passes" on the menu of the official website and keep an eye for for updates and instructions on the official <a href="https://www.instagram.com/pramana_2024.gitam/">@pramana_2024.gitam</a> instagram page.
       </div>
     </div>
   </div>
@@ -39,7 +39,7 @@ const FAQs = () => {
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      The fest will feature a variety of events including cultural performances, workshops and competitions. Check the events section for details.
+      Expect a diverse range of events and activities, including cultural performances, live music, workshops, fashion shows, and more, creating a vibrant and engaging experience for everyone.
       </div>
     </div>
   </div>
@@ -51,7 +51,19 @@ const FAQs = () => {
     </h2>
     <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-      There will be food available inside the arena.
+      No, outside food and drinks are not allowed into the arena. There will be food available inside.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+      Will there be any medical facilities available?
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      Yes, medical facilities will be available on-site to ensure the well-being of attendees. Our priority is to provide a safe and secure environment for everyone.
       </div>
     </div>
   </div>
