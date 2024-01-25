@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import '../events/events.css'
-
+import {Link} from "react-router-dom"
 
 const Navbar = () => {
   const [screenWdt,setScreenwdt] = useState(window.innerWidth)
@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
       </div>:<div className="navbar_desktop font-bold ">
         <div className="navlinks_desktop hover:text-purple-500">
-          <a className="hover:text-purple-500 nav_link" href="#events">Events</a>
+          <Link to='/events'>Events</Link>
           <a className="hover:text-purple-500 nav_link" href="#faqs">FAQs</a>
           <a className="hover:text-purple-500 nav_link" href="#contact">Contact us</a>
           <a className="hover:text-purple-500 nav_link" href="https://linktr.ee/pramanahyd">Buy Passes</a>

@@ -33,13 +33,13 @@ const Carousel = () => {
       <div className={`card_container`}>
       { eventlist.map((e,idx) => (
         <div style={{backgroundImage: `url('/assets/Events/${e.image}'`}} className={`card  brightness-50')] ${active===e.id?'card_show':''}`} key={idx} >
-          <div class='gradient'>
+          <div className='gradient'>
             <h1>Event Schedule</h1>
             <h2><b>{e.day}</b></h2>
           </div>
           <div className='absolute font-bold text-white'></div>
-          <div class='gradient2'>
-            <div class="title">
+          <div className='gradient2'>
+            <div className="title">
               <h1><b>{e.title}</b></h1>
               {screenWdt>=800?<h3>{e.description}</h3>:<div></div>}
               </div>
