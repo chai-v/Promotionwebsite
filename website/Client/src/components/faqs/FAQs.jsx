@@ -9,7 +9,7 @@ const FAQs = () => {
         <div class="accordion accordion-flush" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
       Are non GITAM students allowed to attend the fest?
       </button>
     </h2>
