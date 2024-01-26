@@ -1,12 +1,12 @@
 export const eventlist = [
     {
+        title:"Threeory",
         id:1,
-        title:"Artist Performance",
-        image:'Artistperformance.webp',
+        image:"Bandperformance.webp",
         day:"DAY 1",
         time: "7:30 PM - 9:30 PM",
-        date:"08/02/24",
-        description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
+        date:"09/02/24",
+        description: "Experience a sonic journey with a dynamic band performance that blends raw energy, skillful musicianship, and unforgettable melodies brought to you by Threeory"
     },
     {
         title:"Battle of Bands",
@@ -81,13 +81,13 @@ export const eventlist = [
         description: "Indulge in the rich tapestry of cultural performances and then witness the glamour unfold on the runway with a separate and spectacular fashion ramp walk."
     },
     {
-        title:"Threeory",
         id:10,
-        image:"Bandperformance.webp",
+        title:"Artist Performance",
+        image:'Artistperformance.webp',
         day:"DAY 2",
         time: "7:30 PM - 9:30 PM",
-        date:"09/02/24",
-        description: "Experience a sonic journey with a dynamic band performance that blends raw energy, skillful musicianship, and unforgettable melodies brought to you by Threeory"
+        date:"08/02/24",
+        description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
     },
     {
         title:"Culturals",
