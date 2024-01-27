@@ -6,13 +6,13 @@ const Contact = () => {
     <div className='contact sm:height[100%]'  >
       
         <div className="contact_heading"><h1>Contact us</h1></div>
-        <div className="vendor_message sm:text-start">
+        {/* <div className="vendor_message sm:text-start">
           <br></br><b><span>Want to become a vendor?&nbsp;
           <a href="https://forms.gle/Yhoi6whqnKW6gW4b7">
             Click Here to Apply!
           </a>
           </span></b>
-        </div>
+        </div> */}
         <div className="contact_info  sm:flex-row">
           <div className="poc_container">
             <div className="contact_person">
@@ -43,11 +43,6 @@ const Contact = () => {
           </div>
         </div>
         </div>
-        
-      
-      
-      
-
     </div>
     
   )
