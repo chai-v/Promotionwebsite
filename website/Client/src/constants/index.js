@@ -54,17 +54,8 @@ export const eventlist = [
         description: "Get ready for an unfiltered dance showdown where authenticity reigns supreme – witness raw talent and genuine passion in a fierce dance-off."
     },
     {
-        title: "Celestia",
-        id:7,
-        image:"Celestia.webp",
-        day:"DAY 2",
-        time: "10:00 AM - 12:00 PM",
-        date:"09/02/24",
-        description: "Experience the celestial allure of fashion at Celestia, where style meets the stars in a celestial symphony of elegance and grace"
-    },
-    {
         title:"Auto Expo",
-        id:8,
+        id:7,
         image:"autoexpo.webp",
         day:"DAY 2",
         time: "12:00 PM - 3:00 PM",
@@ -73,7 +64,7 @@ export const eventlist = [
     },
     {
         title:"Culturals & Ramp",
-        id:9,
+        id:8,
         image:"Cultural2.webp",
         day:"DAY 2",
         time: "4:30 PM - 7:30 PM",
@@ -81,13 +72,23 @@ export const eventlist = [
         description: "Indulge in the rich tapestry of cultural performances and then witness the glamour unfold on the runway with a separate and spectacular fashion ramp walk."
     },
     {
-        id:10,
-        title:"Artist Performance",
+        id:9,
+        title:"Ram Miriyala",
         image:'Artistperformance.webp',
         day:"DAY 2",
         time: "7:30 PM - 9:30 PM",
         date:"08/02/24",
-        description: "Be enchanted by the soulful melodies as a captivating singer takes the stage, delivering a performance that resonates with passion and musical brilliance."
+        description: "Get ready to sing along to all your favorite hits! Ram Miriyala is bringing his greatest songs to the stage for one unforgettable night."
+    },
+    {
+        title:"Fashion Nova ",
+        id:10,
+        image:"Celestia.webp",
+        day:"DAY 3",
+        time: "10:00 AM - 12:00 PM",
+        date:"10/02/24",
+        description: "Unleash your inner fashionista! ✨ Presenting Fashion Nova, the ultimate style showdown. Strut your stuff and win big! "
+        
     },
     {
         title:"Culturals",
@@ -99,17 +100,8 @@ export const eventlist = [
         description: "Embark on a cultural odyssey with enchanting performances that weave together traditions, rhythms, and artistic expressions from around the world"
     },
     {
-        title:"Meet and greet",
-        id:12,
-        image:"Celebmeet.webp",
-        day:"DAY 3",
-        time: "6:00 PM - 7:00 PM",
-        date:"10/02/24",
-        description: "Get up close and personal with your favorite stars in an exclusive Celebrity Meet and Greet, where fans and fame come together for an unforgettable experience"
-    },
-    {
         title:"Project 91",
-        id:13,
+        id:12,
         image:"DJnight.webp",
         day:"DAY 3",
         time: "7:00 PM - 8:00 PM",
@@ -118,7 +110,7 @@ export const eventlist = [
     },
     {
         title:"Nina Suerte",
-        id:14,
+        id:13,
         image:"nina.webp",
         day:"DAY 3",
         time: "8:00 PM - 9:30 PM",
