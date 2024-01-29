@@ -23,20 +23,15 @@ const Updates = (props) => {
     const fetchInstagramPosts = async () => {
       try {
         const response = await axios.get(
-          `https://graph.instagram.com/v12.0/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink,timestamp&access_token=${props.Insta_key}`
+          // `https://graph.instagram.com/v12.0/me/media?fields=id,caption,media_type,media_url,thumbnail_url,permalink,timestamp&access_token=${props.Insta_key}`
+          `https://insta-post-fetcher.onrender.com/fetchInstagramData`
         );
 
         const data = response.data;
-        console.log(data.data);
-        if (data && data.data) {
-          
-          for(var i=0;i<=8;i++)
-          {
-            top_5.push(data.data[i])
-          }
-          setPosts(top_5)
+        console.log(data);
+        if (data) {
+          setPosts(data)
         }
-        console.log(top_5)
       } catch (error) {
         console.error('Error fetching Instagram posts:', error);
       }
@@ -48,6 +43,7 @@ const Updates = (props) => {
   return (
     <div className='updates' >
       <h2 className='update_heading '>Instagram Feed</h2>
+      {posts.length>0&&
       <Swiper
       effect={'coverflow'}
       grabCursor={true}
@@ -91,7 +87,7 @@ const Updates = (props) => {
         </div>
         <div className="swiper-pagination"></div>
       </div>:<div></div>}
-    </Swiper>
+    </Swiper>}
     </div>
   );
 };

@@ -13,6 +13,15 @@ const Carousel = () => {
     setScreenwdt(window.innerWidth);
     window.addEventListener('resize',handleResize)
   })
+  useEffect(() => {
+    const autoChangeSlide = () => {
+      setActive((prevActive) => (prevActive % eventlist.length) + 1);
+    };
+    const intervalId = setInterval(autoChangeSlide, 3000); 
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, [active]);
   const handleLeftClick = () => {
     setActive((prevActive) => prevActive - 1)
     console.log(active)
