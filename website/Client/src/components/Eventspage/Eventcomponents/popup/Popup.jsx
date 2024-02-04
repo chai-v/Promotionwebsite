@@ -33,9 +33,9 @@ const Popup = ({onClose, code}) => {
                     <h1 className='text-xl font-extrabold max-w-md'>{events[code].title}</h1><br/>
                     <h4 className='text-l font-extrabold max-w-md'>{events[code].date}</h4><br/>
                     <div>
-                    <h4 className='text-l font-extrabold max-w-md'>Venue</h4><br/>
+                    <h4 className='text-l font-extrabold max-w-md'>{events[code].venue}</h4><br/>
                     </div>
-                    <p className='text-l font-bold max-w-lg'>{events[code].description}</p>
+                    <p className='text-sm font-bold max-w-lg'>{events[code].description}</p>
                     </div>
                     {events[code].link!=="" &&
                     <div className='col-span-2'>
