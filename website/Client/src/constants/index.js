@@ -140,7 +140,7 @@ export const eventlist = [
         date:"08/02/24",
         description:"Enhance your diplomatic skills and global perspective with our GMUN Training Workshop. Join us for an insightful session where you'll delve into the intricacies of Model United Nations, honing your debate, negotiation, and diplomacy abilities.",
         venue:"Veeksha Hall",
-        link:""
+        link:"https://docs.google.com/forms/d/e/1FAIpQLSd8rusTUwQSk302LY3cskbIvfr26AB6cyPZ-kul0c6XPcDVTg/viewform"
 
     },
     {
