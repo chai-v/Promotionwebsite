@@ -62,7 +62,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url('assets/background.webp');
+        background-image: url('background.webp');
         background-position: center;
         background-size: cover;
         position: relative;
