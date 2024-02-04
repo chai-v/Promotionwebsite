@@ -1,0 +1,194 @@
+.eventpage_container{
+    min-height: 60vh;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+.eventpage{
+    display: flex;
+    min-height: 67vh !important;
+    flex-direction:column ;
+    align-items: center;
+    background-color: #9030CC;
+    margin-top: -7%;
+    width: 100%;
+    position: relative;
+    
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.evecarousel_box{
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+.evecarousel{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+/*..................................Pramanacomponent...................................*/
+.cards_container{
+    height: auto;
+    width: 90%;
+    margin-top: 5%;
+    overflow: hidden;
+}
+.evecard{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(91, 8, 154);
+    /* align-items: center; */
+    margin-bottom: 4%;
+    overflow: hidden;
+    background-position: center;
+    background-size: contain;
+}
+.evegradient{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, black 0%, rgb(0 0 0 / 0%) 50%, rgb(0 0 0 / 67%) 100%);
+}
+.evegradient h1{
+    font-size: larger;
+}
+.evegradient h2{
+    margin-right: 5%;
+    margin-top: 5.5vh;
+    text-align: end;
+    vertical-align: bottom;
+    font-size: large;
+}
+.evetitle{
+    margin-top: 6%;
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+}
+/*.............................evedesktop...........................*/
+.evedesktop_btn{
+    border: solid 4px rgb(74, 4, 140);
+    outline: none;
+    min-width: 120px;
+    min-height: 50px;
+    margin: 5px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #9030CC;
+    transition: all ease-in-out 0.2s;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+.evedesktop_btn:hover{
+    transform: scale(110%);
+    background-color:rgb(156, 93, 215) ;
+}
+.days_list{
+    /* margin-top: 30px; */
+    margin-left: 15%;
+    display: flex;
+    max-width: 40%;
+    justify-content: space-around;
+}
+
+.description{
+    display: flex;
+    margin-top: 4%;
+    justify-content: center;
+    width: 100%;
+}
+.description p{
+    max-width: 50%;
+    text-align:center;
+    font-size: larger;
+    font-family: "Poppins";
+}
+/*............................................Desktop................................
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.....................................................................................*/
+@media (min-width:800px){
+    .eventpage{
+        display: flex;
+        min-height: 80vh !important;
+        flex-direction:column ;
+        align-items: center;
+        background-color: #9030CC;
+        margin-top: -7%;
+        width: 100%;
+        position: relative;
+        
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+    }
+    .eveday_evecontainer{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .cards_container{
+        height: auto;
+        margin-top: 0%;
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .evegradient{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, black 0%, rgb(0 0 0 / 0%) 50%, rgb(0 0 0 / 67%) 100%);
+        display: flex;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+    .evegradient h1{
+        font-size: x-large;
+    }
+    .time{
+        width: 60%;
+        z-index: 100;
+        height: fit-content;
+        margin-left: auto;
+    }
+    .evegradient h2{
+        margin-right: 5%;
+        margin-top: 33%;
+        font-size: x-large;
+        margin-bottom: 5%;
+    }
+    .evecard{
+        max-width: 45% !important;
+        min-height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+        background-color: rgb(91, 8, 154);
+        border-radius: 30px;
+        transition: all ease-in-out 0.2s;
+    }
+    .evecard:hover{
+        transform: scale(110%);
+        background-color:rgb(93, 7, 163) ;
+    }
+    .eveschedule{
+        align-items: start !important;
+        display: flex;
+        margin-left: 5%;
+        font-size: 40px;
+        font-family: 'Berkshire Swash';
+        margin-top: 3%;
+    }
+}

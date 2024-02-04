@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './carousel.css'
 
-import { eventlist } from '../../constants'
+import { homeeventlist } from '../../constants'
 
 const Carousel = () => {
   const [active,setActive] = useState(1)
@@ -15,7 +15,7 @@ const Carousel = () => {
   })
   useEffect(() => {
     const autoChangeSlide = () => {
-      setActive((prevActive) => (prevActive % eventlist.length) + 1);
+      setActive((prevActive) => (prevActive % homeeventlist.length) + 1);
     };
     const intervalId = setInterval(autoChangeSlide, 3000); 
     return () => {
@@ -31,7 +31,7 @@ const Carousel = () => {
     console.log(active)
   }
   
-  const list_len = eventlist.length
+  const list_len = homeeventlist.length
   console.log("length =",list_len)
   return (
     <div className='carousel_container ' >
@@ -40,7 +40,7 @@ const Carousel = () => {
       }
       
       <div className={`card_container`}>
-      { eventlist.map((e,idx) => (
+      { homeeventlist.map((e,idx) => (
         <div style={{backgroundImage: `url('/assets/Events/${e.image}'`}} className={`card  brightness-50')] ${active===e.id?'card_show':''}`} key={idx} >
           <div class='gradient'>
             <h1>Event Schedule</h1>

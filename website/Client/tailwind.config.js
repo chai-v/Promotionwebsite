@@ -4,6 +4,7 @@ export const content = ["./index.html", "./src/**/*.{js,jsx,css}", "./src/public
 export const mode = "jit";
 export const theme = {
   extend: { 
+    screens:{"md":"800px"}
   },
   plugins: {
     'postcss-import': {},

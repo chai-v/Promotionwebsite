@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react"
-import '../events/events.css'
+import './eventnavbar.css'
 import {Link} from "react-router-dom"
 
-const Navbar = () => {
+const Eventnavbar = () => {
   const [screenWdt,setScreenwdt] = useState(window.innerWidth)
   const handleResize = () => {
     setScreenwdt(window.innerWidth)
@@ -37,16 +37,12 @@ const Navbar = () => {
             {menu?<i className='bx bx-arrow-back'></i>:<i className='bx bx-menu'></i>}
         </div>
         <div id="mobile" className={`nav_links hover:text-purple-500 ${menu?'nav_bar_slide':''}`}>
-        <Link to='/events'>Events</Link><br/>
-          <a className="hover:text-purple-500 " onClick={handleMenu} href="#faqs">FAQs</a><br/>
-          <a className="hover:text-purple-500 " onClick={handleMenu} href="#contact">Contact Us</a><br/>
+        <Link to='/'>Home</Link><br/>
           <a className="hover:text-purple-500 " onClick={handleMenu} href="https://linktr.ee/pramanahyd">Buy Passes</a><br/>
         </div>
-      </div>:<div className="navbar_desktop font-bold ">
-        <div className="navlinks_desktop hover:text-purple-500">
-          <Link to='/events'>Events</Link>
-          <a className="hover:text-purple-500 nav_link" href="#faqs">FAQs</a>
-          <a className="hover:text-purple-500 nav_link" href="#contact">Contact us</a>
+      </div>:<div className="navbar_desktop font-bold justify-end">
+        <div className="navlinks_desktop hover:text-purple-500 w-1/2 mr-12">
+          <Link className="hover:text-purple-500 nav_link" to='/'>Home</Link>
           <a className="hover:text-purple-500 nav_link" href="https://linktr.ee/pramanahyd">Buy Passes</a>
         </div>  
       </div>}
@@ -54,4 +50,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Eventnavbar

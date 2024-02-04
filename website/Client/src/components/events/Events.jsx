@@ -1,6 +1,7 @@
 import Carousel from "../carousel/Carousel"
 import Gallery from "../gallery/Gallery"
 import './events.css'
+import {Link} from "react-router-dom"
 const Events = () => {
   return (
   <div className="events" id="events">
@@ -8,9 +9,7 @@ const Events = () => {
       <h1>Events</h1>
     </div>
     <div className="road_map_container"></div>
-    <a href="https://linktr.ee/pramanahyd">
-    <div className="coming_soon"></div>
-    </a>
+    <Link to='/events'><div className="coming_soon"></div></Link>
     <div className="carousel_box">
       <Carousel/>
     </div>

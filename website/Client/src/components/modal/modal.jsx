@@ -13,9 +13,9 @@ const Modal = ({onClose}) => {
             <div className='mt-10 flex flex-col text-white'>
                 <button onClick={onClose} className='place-self-end'><ion-icon name="close-outline"></ion-icon></button>
                 <div className='bg-purple-900 rounded-xl px-4 py-4 flex-col gap-5 items-center mx-3'>
-                    <h1 className='text-2xl font-extrabold'>Passes are out!</h1><br/>
-                    <p className='text-2xl font-bold max-w-md text-center'>General passes for Gitamites and Non Gitamites are now available</p><br/>
-                    <p className='text-l max-w-md text-center'>Note: Gitamites use gitam mail</p>
+                    <h1 className='text-2xl font-extrabold'>Day passes are out!</h1><br/>
+                    <p className='text-2xl font-bold max-w-md text-center'>General passes for Gitamites now avaliable at Shivaji Auditorium.</p><br/>
+                    <p className='text-2xl font-bold max-w-md text-center'>Non Gitamite and day passes can be purchased through the link below.</p>
                     <button id="buy" className='bg-white mt-4 font-extrabold rounded-md flex items-center justify-center'><a className='text-purple-900' href="https://linktr.ee/pramanahyd">Buy now</a></button>
                 </div>
             </div>

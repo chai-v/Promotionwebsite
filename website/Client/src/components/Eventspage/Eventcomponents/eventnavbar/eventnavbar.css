@@ -1,0 +1,91 @@
+
+.burgur_menu{
+    min-height: 70px;
+    min-width: 70px;
+    background-color:   rgba(255, 255, 255, 0.323);
+    border-radius: 20%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    cursor: pointer;
+    position: fixed;
+    right: 0%;
+    z-index: 1000;
+}
+/*navbar css*/
+.burgur_menu{
+    min-height: 70px;
+    min-width: 70px;
+    background-color:   rgba(255, 255, 255, 0.323);
+    border-radius: 20%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    cursor: pointer;
+    position: fixed;
+    right: 0%;
+    z-index: 1000;
+    color: white;
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: x-large;
+    position: fixed;
+    font-family: monospace;
+    transform: translateX(-150%);
+    background-color: rgb(153, 82, 194);
+    transition: all ease-in-out 0.3s;
+    z-index: 900;
+    color: white;
+}
+
+
+.nav_bar_slide{
+    transform: translateX(0);
+   
+}
+.navbar{
+    
+    z-index: 500;
+    top: 0px;
+    width: 100%;
+}
+.nav_container{
+    display: flex;
+    z-index: 1000;
+    justify-content: space-between;
+    
+}
+.navbar_desktop{
+    display: flex;
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 40%;
+    margin-right: 2%;
+    margin-top: 2%;
+    
+}
+.navlinks_desktop{
+    display: flex;
+    width: 50%;
+    margin-top: 1rem;
+    color: white;
+    justify-content: space-between;
+    font-size: 150%;
+    
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+......................................................DESKTOP.....................
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
