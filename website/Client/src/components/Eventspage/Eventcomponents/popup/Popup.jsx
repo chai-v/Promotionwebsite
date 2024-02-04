@@ -26,7 +26,7 @@ const Popup = ({onClose, code}) => {
             <div className='popupbox mt-10 flex flex-col text-white'>
                 <button onClick={onClose} className='place-self-end'><ion-icon name="close-outline"></ion-icon></button>
                 {screenWdt<=800?
-                <div className='bg-purple-900 rounded-xl px-4 py-4 flex flex-col gap-6 items-center mx-3'>
+                <div className='bg-purple-900 rounded-xl px-4 py-4 flex flex-col gap-6 items-center mx-3 popup'>
                     <img className="poster rounded-xl" src={"/assets/Events/"+events[code].image}></img>
                     <div className='grid-cols-2'>
                     <div className='col-span-2'>
