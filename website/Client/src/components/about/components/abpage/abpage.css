@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('assets/team.webp');
+    background-image: url('team.webp');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -69,7 +69,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url('assets/team.webp');
+        background-image: url('team.webp');
         background-position: center;
         background-size: cover;
         position: relative;
