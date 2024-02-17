@@ -140,7 +140,7 @@ export const eventlist = [
         date:"08/02/24",
         description:"Enhance your diplomatic skills and global perspective with our GMUN Training Workshop. Join us for an insightful session where you'll delve into the intricacies of Model United Nations, honing your debate, negotiation, and diplomacy abilities.",
         venue:"Veeksha Hall",
-        link:"https://docs.google.com/forms/d/e/1FAIpQLSd8rusTUwQSk302LY3cskbIvfr26AB6cyPZ-kul0c6XPcDVTg/viewform"
+        link:""
 
     },
     {
@@ -164,7 +164,7 @@ export const eventlist = [
         date:"08/02/24",
         description:"Witness musical mastery collides as diverse bands compete for the title in an electrifying Battle of the Bands showdown.",
         venue:"Shivaji Auditorium",
-        link:"https://docs.google.com/forms/d/e/1FAIpQLSfimXgEorNfN16BdzUoMm_1g8y-wl4RqvTjLbvWB62FUI96qA/viewform"
+        link:""
     },
     {
         id:5,
@@ -234,7 +234,7 @@ export const eventlist = [
         date:"09/02/24",
         description: "Get ready for an unfiltered dance showdown where authenticity reigns supreme  witness raw talent and genuine passion in a fierce dance-off.",
         venue:"Shivaji Auditorium",
-        link:"https://docs.google.com/forms/d/e/1FAIpQLSdr8Vp7PBJWvadMjm0wmJeiHpGZHPYR3tng0ZIZSKS37qA3wg/viewform"
+        link:""
         
     },
     {
@@ -270,7 +270,7 @@ export const eventlist = [
         date:"09/02/24",
         description: "Rev up your excitement at the Auto Expo, where cutting-edge vehicles and automotive innovation take center stage in a thrilling showcase of speed and design.",
         venue:"Helipad",
-        link:"https://forms.gle/fanFbXD9NQeX3WX59"
+        link:""
     },
     {
         title:"Culturals & Ramp",

@@ -1,0 +1,96 @@
+.core_com h1{
+    font-family: 'Berkshire Swash';
+    font-size: xx-large;
+    position:relative;
+    color: white;
+    margin-left: 4%;
+}
+
+.adv_com h1{
+    font-family: 'Berkshire Swash';
+    font-size: xx-large;
+    position:relative;
+    color: white;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.team{
+    background-color: black;
+}
+
+.core{
+    height:fit-content;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+.coreteam {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+  }
+  
+  .team-image {
+    width: 100%; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+    border-radius: 7px;
+  }
+  
+  .name {
+    margin: 0.3rem 0;
+    font-size: 23px;
+    color: #4F2A7F;
+    font-weight: bold;
+  }
+
+  .domain{
+    font-size: medium;
+    margin-bottom: 3%;
+  }
+
+/* DESKTOP */
+@media (min-width: 800px){
+  .coreteam {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .core_com h1{
+    font-family: 'Berkshire Swash';
+    font-size: xxx-large;
+    position:relative;
+    color: white;
+    margin-left: 4%;
+}
+
+.adv_com h1{
+    font-family: 'Berkshire Swash';
+    font-size: xxx-large;
+    position:relative;
+    color: white;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+.team-image {
+  width: 100%; /* Set a fixed width */
+  height: 300px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the entire area */
+  border-radius: 7px;
+}
+}

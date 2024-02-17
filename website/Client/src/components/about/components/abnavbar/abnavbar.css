@@ -66,19 +66,19 @@
     justify-content: space-between;
     
 }
-.navbar_events{
+.navbar_about{
     display: flex;
     z-index: 1000;
     position: fixed;
     right: 0;
-    width: 50%;
+    width: 40%;
     margin-right: 2%;
     margin-top: 2%;
     
 }
-.navlinks_events{
+.navlinks_about{
     display: flex;
-    width: 70%;
+    width: 60%;
     margin-top: 1rem;
     color: white;
     justify-content: space-around;

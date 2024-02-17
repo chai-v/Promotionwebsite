@@ -4,7 +4,7 @@ import "./components/App.css"
 import Modal from "./components/modal/modal"
 
 const App = () => {
-  const [showModal, setshowModal] = useState(true)
+  const [showModal, setshowModal] = useState(false)
   return (
     <div className="page">
       {showModal && <Modal onClose={()=>setshowModal(false)}/>}
