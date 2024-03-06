@@ -3,6 +3,7 @@ import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import axios from 'axios';
 import '../gallery/gallery.css'
+import './updates.css'
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -69,11 +70,38 @@ const Updates = (props) => {
       {posts.map((post) =>
             <div key={post.id}  >
               {post.media_type === 'IMAGE' ? (
-                <SwiperSlide className='important-class' ><a href={post.permalink}><img src={post.media_url} /></a></SwiperSlide>
+                <SwiperSlide className='important-class' >
+                  <a href={post.permalink}>
+                  <div className="caption" style={{backgroundImage: `url(${post.media_url})`}}>
+                    {/* <a href={post.permalink}><img src={post.media_url} alt="Post Image" /></a> */}
+                    <div className='shade'>
+                      <h1>{post.caption}</h1>
+                    </div>
+                  </div>
+                  </a>
+                </SwiperSlide>
               ) : post.media_type === 'VIDEO' ? (
-                <SwiperSlide className='important-class' ><a href={post.permalink}><img src={post.thumbnail_url} /></a></SwiperSlide>
+                <SwiperSlide className='important-class' >
+                  <a href={post.permalink}>
+                  <div className="caption" style={{backgroundImage: `url(${post.thumbnail_url})`}}>
+                    {/* <a href={post.permalink}><img src={post.media_url} alt="Post Image" /></a> */}
+                    <div className='shade'>
+                      <h1>{post.caption}</h1>
+                    </div>
+                  </div>
+                  </a>
+                </SwiperSlide>
               ) : post.media_type === "CAROUSEL_ALBUM" ? (
-                <SwiperSlide className='important-class' ><a href={post.permalink}><img src={post.media_url} /></a></SwiperSlide>
+                <SwiperSlide className='important-class' >
+                  <a href={post.permalink}>
+                  <div className="caption" style={{backgroundImage: `url(${post.media_url})`}}>
+                    {/* <a href={post.permalink}><img src={post.media_url} alt="Post Image" /></a> */}
+                    <div className='shade'>
+                      <h1>{post.caption}</h1>
+                    </div>
+                  </div>
+                  </a>
+                  </SwiperSlide>
               ):null}
             </div>
             )}
