@@ -16,7 +16,6 @@ const Updates = (props) => {
   const handleResize = () => {
     setScreenwdt(window.innerWidth)
   }
-  const top_5 =[]
  
   useEffect(() => {
     setScreenwdt(window.innerWidth);
@@ -75,7 +74,7 @@ const Updates = (props) => {
                   <div className="caption" style={{backgroundImage: `url(${post.media_url})`}}>
                     {/* <a href={post.permalink}><img src={post.media_url} alt="Post Image" /></a> */}
                     <div className='shade'>
-                      <h1>{post.caption}</h1>
+                      <h3>{post.caption}</h3>
                     </div>
                   </div>
                   </a>
@@ -86,7 +85,7 @@ const Updates = (props) => {
                   <div className="caption" style={{backgroundImage: `url(${post.thumbnail_url})`}}>
                     {/* <a href={post.permalink}><img src={post.media_url} alt="Post Image" /></a> */}
                     <div className='shade'>
-                      <h1>{post.caption}</h1>
+                      <h3>{post.caption}</h3>
                     </div>
                   </div>
                   </a>
@@ -97,7 +96,7 @@ const Updates = (props) => {
                   <div className="caption" style={{backgroundImage: `url(${post.media_url})`}}>
                     {/* <a href={post.permalink}><img src={post.media_url} alt="Post Image" /></a> */}
                     <div className='shade'>
-                      <h1>{post.caption}</h1>
+                      <h3>{post.caption}</h3>
                     </div>
                   </div>
                   </a>

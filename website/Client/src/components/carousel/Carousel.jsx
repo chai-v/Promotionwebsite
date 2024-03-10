@@ -24,21 +24,17 @@ const Carousel = () => {
   }, [active]);
   const handleLeftClick = () => {
     setActive((prevActive) => prevActive - 1)
-    console.log(active)
   }
   const handleRightClick = () => {
     setActive((prevActive) => prevActive + 1)
-    console.log(active)
   }
   
   const list_len = homeeventlist.length
-  console.log("length =",list_len)
   return (
     <div className='carousel_container ' >
       { active <= list_len-1 &&
         <div onClick={handleRightClick} className='nav left'><ion-icon name="arrow-forward-outline"></ion-icon></div>
       }
-      
       <div className={`card_container`}>
       { homeeventlist.map((e,idx) => (
         <div style={{backgroundImage: `url('/assets/Events/${e.image}'`}} className={`card  brightness-50')] ${active===e.id?'card_show':''}`} key={idx} >
@@ -55,9 +51,7 @@ const Carousel = () => {
             <h2><b>{e.time}</b></h2>
           </div>
         </div>
-        
       ))
-
       }
       </div>
       { active>1&&
